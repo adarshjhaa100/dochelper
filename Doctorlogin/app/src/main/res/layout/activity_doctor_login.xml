@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:toolssupport.constraint.ConstraintLayout="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayush.doctorlogin.DoctorLogin"
+    android:orientation="vertical">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Doctor ID"
+       android:id="@+id/doc_id"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/doc_pass"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:id="@+id/doc_login_submit"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
